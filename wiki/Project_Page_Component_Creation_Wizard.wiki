@@ -1,0 +1,15 @@
+#summary TapestryTools' Tapestry Project/Page/Component creation wizard
+#labels Featured
+
+= Tapestry Project Creation Wizard =
+
+We built TapestryTools based on Eclipse WTP, so it is easy to creation Tapestry web project.
+
+ * Creata a new Dynamic Web Project
+[http://tapestrytools.googlecode.com/files/1.png]
+
+
+= Tapestry Page Creation Wizard =
+
+
+= Tapestry Component Creation Wizard =
