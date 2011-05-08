@@ -7,6 +7,10 @@ We built TapestryTools based on Eclipse WTP, so it is easy to creation Tapestry 
 
  * Creata a new Dynamic Web Project
 [http://tapestrytools.googlecode.com/files/1.png]
+ * Select Tapestry 5 project preset in dynamic web project wizard page
+[http://tapestrytools.googlecode.com/files/2.png]
+ * You can also try to edit Tapestry 5 project preset, edit default project facts for Tapestry preset
+[http://tapestrytools.googlecode.com/files/3.png]
 
 
 = Tapestry Page Creation Wizard =
