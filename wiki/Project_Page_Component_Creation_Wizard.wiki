@@ -24,6 +24,8 @@ We built TapestryTools based on Eclipse WTP, so it is easy to creation Tapestry 
  * We can select *.tml file location, in source file folder or in web project's root directory.
 [http://tapestrytools.googlecode.com/files/6.png]
 
+ * Go to edit tapestry page file as you like
+[http://tapestrytools.googlecode.com/files/7.png]
 
 = 3. Tapestry Component Creation Wizard =
 
