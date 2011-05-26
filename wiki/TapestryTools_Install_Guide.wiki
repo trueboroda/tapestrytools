@@ -8,9 +8,9 @@ TapestryTools is built on Eclipse WTP project.Note that WTP requires Java 5 or h
 Before you install TapestryTools, you should get the following basic tools:
 
  * Eclipse SDK (Platform, JDT)       [http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.6.2-201102101200/eclipse-SDK-3.6.2-win32.zip  Download]
- * [1] EMF and XSD SDK Combined EMF and EMF-XSD SDK.            [http://www.eclipse.org/downloads/download.php?file=/modeling/emf/emf/downloads/drops/2.6.x/R201009141218/emf-xsd-SDK-2.6.1.zip  Download]
- * [2] GEF SDK 3.6.2 GEF Code and Source      [http://www.eclipse.org/downloads/download.php?file=/tools/gef/downloads/drops/3.6.2/R201102251600/GEF-SDK-3.6.2.zip Download]
- * [3] DTP sdk v1.8.2 Code and Source      [http://www.eclipse.org/downloads/download.php?file=/datatools/downloads/1.8/dtp-sdk_1.8.2.zip Download]
+ * 1> EMF and XSD SDK Combined EMF and EMF-XSD SDK.            [http://www.eclipse.org/downloads/download.php?file=/modeling/emf/emf/downloads/drops/2.6.x/R201009141218/emf-xsd-SDK-2.6.1.zip  Download]
+ * 2> GEF SDK 3.6.2 GEF Code and Source      [http://www.eclipse.org/downloads/download.php?file=/tools/gef/downloads/drops/3.6.2/R201102251600/GEF-SDK-3.6.2.zip Download]
+ * 3] DTP sdk v1.8.2 Code and Source      [http://www.eclipse.org/downloads/download.php?file=/datatools/downloads/1.8/dtp-sdk_1.8.2.zip Download]
 
 Unzip [1] [2] and [3] and copy the folders and plugins into Eclipse folder, just override it to install these 3 plugins.
 
