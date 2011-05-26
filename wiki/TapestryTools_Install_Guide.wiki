@@ -18,3 +18,7 @@ Unzip 1, 2 and 3, copy the folders and plugins into Eclipse folder, just overrid
 = 2. Install TapestryTools =
 
 Then you can use TapestryTools update site to install TapestryTools. Its update site address is http://code.google.com/p/tapestrytools.
+
+= 3. Have a trial of TapestryTools = 
+
+ * Tapestry project,page and component creation wizard function  [http://code.google.com/p/tapestrytools/wiki/Project_Page_Component_Creation_Wizard Guide] 
