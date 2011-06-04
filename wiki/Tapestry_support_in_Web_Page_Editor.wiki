@@ -14,6 +14,6 @@ In the File associations diallog, click "Add" button to add *.tml file as JSP fi
 
 If we open a Tapestry page/component with WTP Web Page Editor, its palette will contains three main section, HTML,JSP and Tapestry 5. Then, we can drap-and-drop the components in the palette to the canvas.
 
-And we can edit the Tapestry 5's component attributes in Eclipse's property view.
+We select a component in canvas design view or source view, the Eclipse property view will list this component's parameters and we can edit the parameters here. And it will also display parameter description here.
 
 [http://tapestrytools.googlecode.com/files/2-2.png]
