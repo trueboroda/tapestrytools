@@ -15,12 +15,16 @@ It should be possible to change Java code, template files, properties etc, and s
 
 == 2. Autocomplete of properties from the .java page when editing the .tml file ==
 
-In the Source Page of the Web Page Editor, add the Tapestry tag, (for example ${prop:index}). With the cursor inside the brackets, hit Ctrl+spacebar, should see a pop-up with a list of all the available properties defined in the corresponding java class. Check details here. 
+In the Source Page of the Web Page Editor, add the Tapestry tag, (for example ${prop:index}). With the cursor inside the brackets, hit Ctrl+spacebar, should see a pop-up with a list of all the available properties defined in the corresponding java class. Check details here.
 
 == 3. Add MetaData for Tapestry components in Web Page Editor's palette ==
+
+[http://tapestrytools.googlecode.com/files/3-1.png] 
 
 Add proper icons and text label for tapestry components to improve their looking. These tapestry components are current ugly just use default icons and default text.
 
 == 4.Validation function in Tapestry .tml file source view ==
+
+[http://tapestrytools.googlecode.com/files/3-2.png] 
 
 Beyond the basic JSP validation already provided with the JSP editor, this editor supplies semantic validation of the Tapestry standard tag libraries for both EL and non-EL attribute values.
