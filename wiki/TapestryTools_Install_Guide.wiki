@@ -22,3 +22,5 @@ Then you can use TapestryTools update site to install TapestryTools. Its update 
 = 3. Have a trial of TapestryTools = 
 
  * Tapestry project,page and component creation wizard function  [http://code.google.com/p/tapestrytools/wiki/Project_Page_Component_Creation_Wizard Guide] 
+
+ * Have a trial of TapestryTools components drag-and-drop features[http://code.google.com/p/tapestrytools/wiki/Tapestry_support_in_Web_Page_Editor here], just like basic html components and jsp components, TapestryTools supply property view for Tapestry components.
