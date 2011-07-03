@@ -1,5 +1,7 @@
 #summary documents for GSoC project TapestryTools midterm evolution.
 
+<wiki:toc max_depth="3" />
+
 = What we have already =
 
 Add your content here.
