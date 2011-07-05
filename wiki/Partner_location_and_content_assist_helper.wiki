@@ -14,7 +14,16 @@ This should be possible both menu and short keys, once you open a tapestry *.tml
 
 = Content assist for Tapestry component feature=
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Tapestry built in and custom components autocomplete function for WTP Web Page Editor's source view
+If we add actionlink component, such as:
+
+<t:actionlink t:id="logout">Log out
+
+Unknown end tag for </actionlink>
+
+,So when you type
+
+<t:
+
+it comes up with a list you can choose from and then completes it with the required parameters listed.
+[http://tapestrytools.googlecode.com/files/43.png]
