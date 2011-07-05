@@ -1,0 +1,20 @@
+#summary Partner location and content assist features.
+
+= 1. Partner location feature =
+
+This part is corresponding with 5 in project [http://code.google.com/p/tapestrytools proposal].
+
+5. Add convenient way for the Web Page Editor to change-over between a Tapestry page's .tml file and .java file
+
+This should be possible both menu and short keys, once you open a tapestry *.tml file, you get the corresponding java file by pressing CTRL + R.
+
+[http://tapestrytools.googlecode.com/files/411.png] 
+
+[http://tapestrytools.googlecode.com/files/42.png] 
+
+= Content assist for Tapestry component feature=
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
