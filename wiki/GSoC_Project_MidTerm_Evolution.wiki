@@ -6,7 +6,7 @@
  
  Note: This part is just corresponding with [http://code.google.com/p/tapestrytools/ project proposal]
 
-== 1. Project_Page_Component_Creation_Wizard ==
+== 1. Project Page Component Creation Wizard ==
 
 This part includes features in project proposal:
  * 1. Tapertry application creation wizard
@@ -14,7 +14,7 @@ This part includes features in project proposal:
 
 Check features [http://code.google.com/p/tapestrytools/wiki/Project_Page_Component_Creation_Wizard details here].
 
-== 2. Tapestry_support_in_Web_Page_Editor ==
+== 2. Tapestry support in Web Page Editor ==
 
 Include features in proposal:
  * 4. Add Tapestry component drap-and-drop feature support for .tml file editor
