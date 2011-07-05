@@ -29,6 +29,7 @@ Include features in proposal:
  * 6. Add Tapestry built in and custom components autocomplete function for WTP Web Page Editor's source view
  * 8.Autocomplete of properties from the .java page when editing the .tml file 
 
+Check features [http://code.google.com/p/tapestrytools/wiki/Partner_location_and_content_assist_helper here]
 
 = Next steps =
 
