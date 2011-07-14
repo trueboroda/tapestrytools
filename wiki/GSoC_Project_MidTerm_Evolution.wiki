@@ -53,6 +53,16 @@ Add proper icons and text label for tapestry components to improve their looking
 
 Our TapestryTools can only be running in Eclipse Helios environment, we should add Eclipse Indigo support in the coming month.
 
+== Long term necessary features ==
+
+Functions here must be solved, but these questions can not be fixed in a quite soon time,this part of job will begin once we have finished foregoing necessary features.
+
+=== 5. All the available component should appear in the palette view===
+see [http://code.google.com/p/tapestrytools/issues/detail?id=10 issues 10]
+
+=== 6. Autocompletion of Enum parameters doesn't work===
+see [http://code.google.com/p/tapestrytools/issues/detail?id=8 issues 8]
+
 == Optiona features==
 
 === 1.Validation function in Tapestry .tml file source view ===
