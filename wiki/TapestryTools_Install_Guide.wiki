@@ -15,7 +15,7 @@ Before you install TapestryTools, you should get the following basic tools:
  * EMF Validation v1.5.0 (Required for JPA Diagram Editor)
  * Graphiti v0.8.0 (Required for JPA Diagram Editor)
 
-Get [more details (download urls etc) here http://download.eclipse.org/webtools/downloads/drops/R3.3.0/R-3.3.0-20110607160810/]
+Get [http://download.eclipse.org/webtools/downloads/drops/R3.3.0/R-3.3.0-20110607160810/ more details (download urls etc) here]
 
 
 
