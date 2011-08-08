@@ -1,11 +1,25 @@
 #summary TapestryTools install guide document.
 #labels Phase-QA
 
-= For Eclipse Indigo =
+= 1.1 For Eclipse Indigo =
 
-= For Eclipse Helios=
+Note that Java 6 is recommended for using WTP at a whole, even though subsets of WTP and other Eclipse Projects might run with other JRE levels. See planned target environments for more information.
 
-== 1. Get Eclipse and necessary jars ==
+Before you install TapestryTools, you should get the following basic tools:
+
+ * Eclipse SDK v3.7 (Platform, PDE, JDT)
+ * EMF and XSD SDK Combined EMF and EMF-XSD SDK
+ * GEF SDK 3.7 (GEF Code and Source)
+ * DTP sdk v1.9 (Code and Source)
+ * EMF Transaction v1.5.0 (Required for JPA Diagram Editor)
+ * EMF Validation v1.5.0 (Required for JPA Diagram Editor)
+ * Graphiti v0.8.0 (Required for JPA Diagram Editor)
+
+Get [more details (download urls etc) here http://download.eclipse.org/webtools/downloads/drops/R3.3.0/R-3.3.0-20110607160810/]
+
+
+
+= 1.2 For Eclipse Helios=
 
 TapestryTools is built on Eclipse WTP project.Note that WTP requires Java 5 or higher (and, for some things, actually requires a JDK rather than only a JRE) even though many other Eclipse Projects can run with other JRE levels.
 
@@ -19,11 +33,11 @@ Before you install TapestryTools, you should get the following basic tools:
 Unzip 1, 2 and 3, copy the folders and plugins into Eclipse folder, just override it to install these 3 plugins.
 
 
-== 2. Install TapestryTools ==
+= 2. Install TapestryTools =
 
 Then you can use TapestryTools update site to install TapestryTools. Its update site address is http://tapestrytools.googlecode.com/svn/trunk/TapestryTools_UpdateSite/.
 
-== 3. Have a trial of TapestryTools == 
+= 3. Have a trial of TapestryTools =
 
  * Tapestry project,page and component creation wizard function  [http://code.google.com/p/tapestrytools/wiki/Project_Page_Component_Creation_Wizard Guide] 
 
