@@ -35,7 +35,7 @@ Unzip 1, 2 and 3, copy the folders and plugins into Eclipse folder, just overrid
 
 = 2. Install TapestryTools =
 
-Then you can use TapestryTools update site to install TapestryTools. Its update site address is http://tapestrytools.googlecode.com/svn/trunk/TapestryTools_UpdateSite/.
+Then you can use TapestryTools update site to install TapestryTools. Its update site address is http://tapestrytools.googlecode.com/svn/TapestryTools_UpdateSite/.
 
 TapestryTools for Eclipse Helios is:
 http://tapestrytools.googlecode.com/svn/tags/Helios/TapestryTools_UpdateSite/.
