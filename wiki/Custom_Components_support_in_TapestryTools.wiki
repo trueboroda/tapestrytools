@@ -1,0 +1,22 @@
+#summary Custom components support in TapestryTools
+#labels Featured
+
+= Configuration =
+
+In order to use custom components, users should set up custom components' package first, and then collect the custom components.
+
+Users can open the custom components' configuration file by two ways:
+
+ * 1. Select the Tapestry project, click the menu item "Edit custom component packages".
+
+[http://tapestrytools.googlecode.com/files/51.png] 
+
+ * 2. Right click the Tapestry project, click the menu item "Edit custom component packages".
+
+[http://tapestrytools.googlecode.com/files/52.png] 
+
+
+= Support in Web Page Editor Palette =
+
+
+= Custom components support in *.tml file's auto complete list =
