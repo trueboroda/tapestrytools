@@ -16,7 +16,13 @@ Users can open the custom components' configuration file by two ways:
 [http://tapestrytools.googlecode.com/files/52.png] 
 
 
+[http://tapestrytools.googlecode.com/files/53.png] 
+
+
+
 = Support in Web Page Editor Palette =
 
 
 = Custom components support in *.tml file's auto complete list =
+
+[http://tapestrytools.googlecode.com/files/54.png] 
