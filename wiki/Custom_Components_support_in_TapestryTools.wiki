@@ -1,7 +1,7 @@
 #summary Custom components support in TapestryTools
 #labels Featured
 
-= Configuration =
+= Configuration and collect custom components =
 
 In order to use custom components, users should set up custom components' package first, and then collect the custom components.
 
