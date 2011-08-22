@@ -7,10 +7,13 @@ Note that Java 6 is recommended for using WTP at a whole, even though subsets of
 
 Before you install TapestryTools, you should get the following basic tools:
 
+=== Must download plugins===
  * Eclipse SDK v3.7 (Platform, PDE, JDT)
  * EMF and XSD SDK Combined EMF and EMF-XSD SDK
  * GEF SDK 3.7 (GEF Code and Source)
  * DTP sdk v1.9 (Code and Source)
+
+=== Optional  ===
  * EMF Transaction v1.5.0 (Required for JPA Diagram Editor)
  * EMF Validation v1.5.0 (Required for JPA Diagram Editor)
  * Graphiti v0.8.0 (Required for JPA Diagram Editor)
