@@ -9,6 +9,10 @@ Before you install TapestryTools, you should get the following basic tools:
 
 === Must download plugins===
  * Eclipse SDK v3.7 (Platform, PDE, JDT)
+
+Note: please just use [http://www.eclipse.org/downloads/packages/eclipse-classic-37/indigor Eclipse Classic], and do *not* use Eclipse Indigo for JavaEE developer, or may be you can not install TapestryTools :-)
+
+
  * EMF and XSD SDK Combined EMF and EMF-XSD SDK
  * GEF SDK 3.7 (GEF Code and Source)
  * DTP sdk v1.9 (Code and Source)
