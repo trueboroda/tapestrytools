@@ -24,7 +24,7 @@ Note: please just use [http://www.eclipse.org/downloads/packages/eclipse-classic
 
 Get [http://download.eclipse.org/webtools/downloads/drops/R3.3.0/R-3.3.0-20110607160810/ more details (download urls etc) here]
 
-
+You can [http://tapestrytools.googlecode.com/files/TapestryTools.rar download] video guide about how to install TapestryTools in Eclipse Indigo environment.
 
 = 1.2 For Eclipse Helios=
 
