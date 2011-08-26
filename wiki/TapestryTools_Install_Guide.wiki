@@ -5,6 +5,16 @@
 
 Note that Java 6 is recommended for using WTP at a whole, even though subsets of WTP and other Eclipse Projects might run with other JRE levels. See planned target environments for more information.
 
+=== 1.1.1 Install TapestryTools in Eclipse Indigo JavaEE ===
+
+Please [http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/indigor Download Eclipse JavaEE], upzip it on your disk.
+
+Download all the plugins in the folder http://tapestrytools.googlecode.com/svn/TapestryTools_UpdateSite/plugins/, or you can use SVN client to download the whole folder, and copy this folder to Eclipse JavaEE's directory, override its plugins folder.
+
+Then you can have a trial of TapestryTools. 
+
+=== 1.1.2 Install TapestryTools in Eclipse Indigo Classic ===
+
 Before you install TapestryTools, you should get the following basic tools:
 
 === Must download plugins===
