@@ -9,7 +9,7 @@ Note that Java 6 is recommended for using WTP at a whole, even though subsets of
 
 Please [http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/indigor Download Eclipse JavaEE], upzip it on your disk.
 
-Download all the plugins in the folder http://tapestrytools.googlecode.com/svn/TapestryTools_UpdateSite/plugins/, or you can use SVN client to download the whole folder, and copy this folder to Eclipse JavaEE's directory, override its plugins folder.
+Download all the plugins in the folder http://tapestrytools.googlecode.com/svn/TapestryTools_UpdateSite/plugins/ (you can use SVN client to download the whole folder), copy all the jar files in the plugins into Eclipse's plugins folder.
 
 Then you can have a trial of TapestryTools. 
 
