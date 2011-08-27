@@ -11,7 +11,7 @@ Please [http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers
 
 Download all the plugins in the folder http://tapestrytools.googlecode.com/svn/TapestryTools_UpdateSite/plugins/ (you can use SVN client to download the whole folder), copy all the jar files in the plugins into Eclipse's plugins folder.
 
-Then you can have a trial of TapestryTools. 
+Then you can have a trial of TapestryTools, I have tested it in MacOS and Win 7, it works well both.
 
 === 1.1.2 Install TapestryTools in Eclipse Indigo Classic ===
 
