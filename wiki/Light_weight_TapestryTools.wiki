@@ -5,7 +5,7 @@
 
 We build an Eclipse WTP based Tapestry 5 visual editor as GSoC 2011 project, called it TapestryTools (http://code.google.com/p/tapestrytools/). Now, it can works well on Eclipse Helios/Indigo. But there are still some problems:
 
- * 1. It is built on Eclipse WTP, too heavyweight, hard to install, users must install  whole WTP plugins to run TapestryTools. Many tapestry developers want to use TapestryTools, but failed in its install process. Or users just do not want to install such a heavy tool, they need a more smart, more simpler and more efficient tool.
+ * 1. It is built on Eclipse WTP, too heavyweight, hard to install, users must install all the WTP plugins to run TapestryTools. Many tapestry developers want to use TapestryTools, but failed in its install process. Or some other users just do not want to install such a heavy tool, they need a more smart, more simpler and more efficient tool.
 
  * 2. Hard to maintain and improve, once Eclipse WTP version changes, we must do some corresponding job to keep synchronous with Eclipse WTP's release version. It is repeated and boring. Even there are some users want to improve TapestryTools with me together, after they know that must start with WTP source code, they gave it up. Eclipse WTP is powerful, meanwhile, its source code is too complex to extend. 
 
@@ -14,6 +14,8 @@ After my GSoC mentor Igor Drobiazko suggested, and discussion with Tapestry deve
 = Light weight TapestryTool design =
 
 The brand new lightweight TapestryTools will be just a normal Eclipse plug-in, does not need many special dependencies, more focus, easy to install, easy to use. And also, we can supply practical and welcomed features:
+
+== Must have features ==
 
 === 1. Easy install===
 
@@ -74,3 +76,13 @@ So when we type
 <span t:id=" 
 }}}
 it will also come up with a list of components that we can use here, we can select goToStart component name in the list.
+
+== Optional Features ==
+
+If we have enough time in GSoC period, we also plan to supply these features:
+
+1. Import Tapestry jar of special version to project
+2. Validation function in Tapestry .tml file source view
+   Supplies semantic validation of the Tapestry standard tag libraries for both EL and non-EL attribute values in .tml file
+3. Hyperlink function in Tapestry .tml file source view
+   Hyperlink to the Java editor from property and method referenced in the Expression Language(EL) of a tag-attribute, click (CTRL + property or method ), it will jump to the corresponding Java Classfile.
