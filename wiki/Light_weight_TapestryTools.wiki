@@ -3,7 +3,7 @@
 
 = Introduction =
 
-We build an Eclipse WTP based Tapestry 5 visual editor as GSoC 2011 project, called it TapestryTools[1]. Now, it can works well on Eclipse Helios/Indigo. But there are still some problems:
+We build an Eclipse WTP based Tapestry 5 visual editor as GSoC 2011 project, called it TapestryTools (http://code.google.com/p/tapestrytools/). Now, it can works well on Eclipse Helios/Indigo. But there are still some problems:
 
  * 1. It is built on Eclipse WTP, too heavyweight, hard to install, users must install  whole WTP plugins to run TapestryTools. Many tapestry developers want to use TapestryTools, but failed in its install process. Or users just do not want to install such a heavy tool, they need a more smart, more simpler and more efficient tool.
 
@@ -25,7 +25,7 @@ It will still supply Tapestry 5 page and component creation wizard.
 
 === 3. Convenient switch ===
 
-Users can use command to switch between *.tml and corresponding java, It shoule be possible both by menu and short keys, we use "CTRL + R" in PC and "COMMAND + R" in Mac.
+Users can use command to switch between tml file and corresponding java, It shoule be possible both by menu and short keys, we use "CTRL + R" in PC and "COMMAND + R" in Mac.
 
 === 4. XML editor based *.tml editor ===
 
@@ -74,5 +74,3 @@ So when we type
 <span t:id=" 
 }}}
 it will also come up with a list of components that we can use here, we can select goToStart component name in the list.
-
-[1] http://code.google.com/p/tapestrytools/
