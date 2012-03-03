@@ -29,7 +29,7 @@ It will still supply Tapestry 5 page and component creation wizard.
 
 Users can use command to switch between tml file and corresponding java, It shoule be possible both by menu and short keys, we use "CTRL + R" in PC and "COMMAND + R" in Mac.
 
-=== 4. XML editor based *.tml editor ===
+=== 4. XML editor based .tml editor ===
 
 === 5. Autocompletion features ===
 
@@ -51,11 +51,13 @@ If we add actionlink component, such as:
 {{{
 <t:actionlink t:id="logout">Log out</t:actionlink> 
 }}}
-,So when you type 
+In blank space, pop up content assist, it is "ALT + /" in my Eclipse, all the Tapestry 5 components will be list in content assist, just select "ActionLink", it will insert corresponding code for you.
+
+Or when you type 
 {{{
 <t: 
 }}}
-it comes up with a content assist list (you can also pop up it by yourself, it is "ALT + /" in my Eclipse), you can choose one from the list and then completes it with the required parameters listed. 
+the content assist dialog comes up, you can choose one from the list and then completes it with the required parameters listed. 
 
 Suppose that we define a pagelink component in Java class file: 
 {{{
