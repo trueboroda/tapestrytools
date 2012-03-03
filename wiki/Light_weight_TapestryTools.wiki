@@ -45,11 +45,7 @@ public String getName(){
 }}}
 Then, in Test.tml, once you typed {{{ ${ }}}, you can get "name" and "getName" in content assist list.
 
-  * Tapestry built in and custom components autocompletion function in tml
-
-Once you want to insert Tapestry 5 components into current place, just pop up content assist(it is "ALT + /" in my Eclipse), all Tapestry 5 components will be listed in the content assist, just select it and enter, it will insert your target component's corresponding code, even with necessary attributes code.
-
- * Tapestry components attributes autocomplete feature
+ * Tapestry components and corresponding attributes autocomplete feature
 
 If we add actionlink component, such as: 
 {{{
@@ -59,7 +55,7 @@ If we add actionlink component, such as:
 {{{
 <t: 
 }}}
-it comes up with a list you can choose from and then completes it with the required parameters listed. 
+it comes up with a content assist list (you can also pop up it by yourself, it is "ALT + /" in my Eclipse), you can choose one from the list and then completes it with the required parameters listed. 
 
 Suppose that we define a pagelink component in Java class file: 
 {{{
