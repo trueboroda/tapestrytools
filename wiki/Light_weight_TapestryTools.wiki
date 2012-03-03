@@ -1,0 +1,78 @@
+#summary Light weight TapestryTools.
+#labels Featured
+
+= Introduction =
+
+We build an Eclipse WTP based Tapestry 5 visual editor as GSoC 2011 project, called it TapestryTools[1]. Now, it can works well on Eclipse Helios/Indigo. But there are still some problems:
+
+ * 1. It is built on Eclipse WTP, too heavyweight, hard to install, users must install  whole WTP plugins to run TapestryTools. Many tapestry developers want to use TapestryTools, but failed in its install process. Or users just do not want to install such a heavy tool, they need a more smart, more simpler and more efficient tool.
+
+ * 2. Hard to maintain and improve, once Eclipse WTP version changes, we must do some corresponding job to keep synchronous with Eclipse WTP's release version. It is repeated and boring. Even there are some users want to improve TapestryTools with me together, after they know that must start with WTP source code, they gave it up. Eclipse WTP is powerful, meanwhile, its source code is too complex to extend. 
+
+After my GSoC mentor Igor Drobiazko suggested, and discussion with Tapestry developers and users in mail list. We noticed that people a brand new simple tool which supplies some special practical and facile Tapestry 5 features, and it can run without WTP.
+
+= Light weight TapestryTool design =
+
+The brand new lightweight TapestryTools will be just a normal Eclipse plug-in, does not need many special dependencies, more focus, easy to install, easy to use. And also, we can supply practical and welcomed features:
+
+=== 1. Easy install===
+
+It will be very easy to install the brand new TapestryTools in different Eclipse version, supply good compatibility between different versions.
+
+=== 2. Tapestry wizards ===
+
+It will still supply Tapestry 5 page and component creation wizard.
+
+=== 3. Convenient switch ===
+
+Users can use command to switch between *.tml and corresponding java, It shoule be possible both by menu and short keys, we use "CTRL + R" in PC and "COMMAND + R" in Mac.
+
+=== 4. XML editor based *.tml editor ===
+
+=== 5. Autocompletion features ===
+
+This light weight TapestryTools will still supply autocompletion features, includes three mainly aspects:
+
+  * Autocomplete of properties from the .java page when editing the .tml file
+
+For example, there is such a method in Test.java:
+{{{
+public String getName(){
+ return "Gavin Lei";
+}
+}}}
+Then, in Test.tml, once you typed {{{ ${ }}}, you can get "name" and "getName" in content assist list.
+
+  * Tapestry built in and custom components autocompletion function in tml
+
+Once you want to insert Tapestry 5 components into current place, just pop up content assist(it is "ALT + /" in my Eclipse), all Tapestry 5 components will be listed in the content assist, just select it and enter, it will insert your target component's corresponding code, even with necessary attributes code.
+
+ * Tapestry components attributes autocomplete feature
+
+If we add actionlink component, such as: 
+{{{
+<t:actionlink t:id="logout">Log out</t:actionlink> 
+}}}
+,So when you type 
+{{{
+<t: 
+}}}
+it comes up with a list you can choose from and then completes it with the required parameters listed. 
+
+Suppose that we define a pagelink component in Java class file: 
+{{{
+@Component(parameters = { "page=start" }) 
+private PageLink goToStart; 
+}}}
+
+and we want to use it in .tml file: 
+{{{
+<span t:id="goToStart">Log out</span> 
+}}}
+So when we type 
+{{{
+<span t:id=" 
+}}}
+it will also come up with a list of components that we can use here, we can select goToStart component name in the list.
+
+[1] http://code.google.com/p/tapestrytools/
