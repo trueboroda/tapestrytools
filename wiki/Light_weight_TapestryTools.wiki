@@ -1,7 +1,7 @@
 #summary Light weight TapestryTools.
 #labels Featured
 
-= Introduction =
+= GSoC project proposal - Light weight TapestryTools =
 
 We build an Eclipse WTP based Tapestry 5 visual editor as GSoC 2011 project, called it TapestryTools (http://code.google.com/p/tapestrytools/). Now, it can works well on Eclipse Helios/Indigo. But there are still some problems:
 
