@@ -28,6 +28,9 @@ It will still supply Tapestry 5 page and component creation wizard.
 === 3. Convenient switch ===
 
 Users can use command to switch between tml file and corresponding java, It shoule be possible both by menu and short keys, we use "CTRL + R" in PC and "COMMAND + R" in Mac.
+[http://tapestrytools.googlecode.com/files/411.png] 
+
+[http://tapestrytools.googlecode.com/files/42.png] 
 
 === 4. XML editor based .tml editor ===
 
