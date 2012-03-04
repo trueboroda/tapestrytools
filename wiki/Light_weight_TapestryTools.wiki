@@ -59,6 +59,8 @@ Or when you type
 }}}
 the content assist dialog comes up, you can choose one from the list and then completes it with the required parameters listed. 
 
+ * Components attribute value autocomplete feature
+
 Suppose that we define a pagelink component in Java class file: 
 {{{
 @Component(parameters = { "page=start" }) 
