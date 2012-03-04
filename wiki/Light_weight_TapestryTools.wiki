@@ -73,6 +73,22 @@ We want to add some attribute for this component, place the curson here
 Pop up content assist, it will come up with a list of component attributes that we can use here, we can select attribute names in the list.
 [http://tapestrytools.googlecode.com/files/autocomplete3.png] 
 
+Suppose that we define a pagelink component in Java class file: 
+{{{
+@Component(parameters = { "page=start" }) 
+private PageLink goToStart; 
+}}}
+
+and we want to use it in .tml file: 
+{{{
+<span t:id="goToStart">Log out</span> 
+}}}
+So when we type 
+{{{
+<span t:id=" 
+}}}
+it will also come up with a list of components that we can use here, we can select goToStart component name in the list.
+
 == Optional Features ==
 
 If we have enough time in GSoC period, we also plan to supply these features:
