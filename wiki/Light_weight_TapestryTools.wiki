@@ -9,7 +9,7 @@ We build an Eclipse WTP based Tapestry 5 visual editor as GSoC 2011 project, cal
 
  * 2. Hard to maintain and improve, once Eclipse WTP version changes, we must do some corresponding job to keep synchronous with Eclipse WTP's release version. It is repeated and boring. Even there are some users want to improve TapestryTools with me together, after they know that must start with WTP source code, they gave it up. Eclipse WTP is powerful, meanwhile, its source code is too complex to extend. 
 
-After my GSoC mentor Igor Drobiazko suggested, and discussion with Tapestry developers and users in mail list. We noticed that people a brand new simple tool which supplies some special practical and facile Tapestry 5 features, and it can run without WTP.
+After my GSoC mentor Igor Drobiazko suggested, and discussion with Tapestry developers and users in mail list. We noticed that people need a brand new simple tool which supplies some special practical and facile Tapestry 5 features, and it can run without WTP.
 
 = Light weight TapestryTool design =
 
