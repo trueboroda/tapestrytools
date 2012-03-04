@@ -24,6 +24,7 @@ It will be very easy to install the brand new TapestryTools in different Eclipse
 === 2. Tapestry wizards ===
 
 It will still supply Tapestry 5 page and component creation wizard.
+[http://tapestrytools.googlecode.com/files/wizard1.png] 
 
 === 3. Convenient switch ===
 
