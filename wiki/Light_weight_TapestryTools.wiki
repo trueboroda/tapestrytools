@@ -56,7 +56,9 @@ If we want to add actionlink component, such as:
 <t:actionlink t:id="logout">Log out</t:actionlink> 
 }}}
 In blank space, pop up content assist, it is "ALT + /" in my Eclipse, all the Tapestry 5 components will be list in content assist, just select "ActionLink", it will insert corresponding code for you.
-[http://tapestrytools.googlecode.com/files/autocomplete4.png] 
+[http://tapestrytools.googlecode.com/files/autocomplete4.png]
+
+
 Or when you type 
 {{{
 <t: 
