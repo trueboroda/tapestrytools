@@ -33,6 +33,8 @@ Users can use command to switch between tml file and corresponding java, It shou
 
 === 4. XML editor based .tml editor ===
 
+As our light weight TapestryTools does not need Eclipse WTP, we can not use WTP's Web Page Editor any more and have to build another editor for Tapestry's .tml file. In fact, tml file is one special format XML, and many tapestry developers are accustomed to edit .tml file by XML editor, meanwhile XML editor is included in Eclipse Java release. So, we will extend XML editor to supply a brand new TML editor for Tapestry.
+
 === 5. Autocompletion features ===
 
 This light weight TapestryTools will still supply autocompletion features, includes three mainly aspects:
