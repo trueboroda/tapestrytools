@@ -64,21 +64,14 @@ the content assist dialog comes up, you can choose one from the list and then co
 
  * Components attribute value autocomplete feature
 
-Suppose that we define a pagelink component in Java class file: 
+Suppose there is an ActionLink component in current .tml file 
+{{{<t:actionlink></t:actionlink>}}}
+We want to add some attribute for this component, place the curson here
 {{{
-@Component(parameters = { "page=start" }) 
-private PageLink goToStart; 
+<t:actionlink
 }}}
-
-and we want to use it in .tml file: 
-{{{
-<span t:id="goToStart">Log out</span> 
-}}}
-So when we type 
-{{{
-<span t:id=" 
-}}}
-it will also come up with a list of components that we can use here, we can select goToStart component name in the list.
+Pop up content assist, it will come up with a list of component attributes that we can use here, we can select attribute names in the list.
+[http://tapestrytools.googlecode.com/files/autocomplete3.png] 
 
 == Optional Features ==
 
