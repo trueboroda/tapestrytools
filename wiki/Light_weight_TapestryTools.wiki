@@ -50,7 +50,7 @@ Then, in Test.tml, once you typed {{{ ${ }}}, you can get "name" and "getName" i
 
  * Tapestry components and corresponding attributes autocomplete feature
 
-If we add actionlink component, such as: 
+If we want to add actionlink component, such as: 
 {{{
 <t:actionlink t:id="logout">Log out</t:actionlink> 
 }}}
@@ -65,7 +65,7 @@ the content assist dialog comes up, you can choose one from the list and then co
  * Components attribute value autocomplete feature
 
 Suppose there is an ActionLink component in current .tml file 
-{{{<t:actionlink></t:actionlink>}}}
+{{{<t:actionlink  >delete</t:actionlink>}}}
 We want to add some attribute for this component, place the curson here
 
 {{{
