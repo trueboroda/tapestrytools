@@ -67,9 +67,11 @@ the content assist dialog comes up, you can choose one from the list and then co
 Suppose there is an ActionLink component in current .tml file 
 {{{<t:actionlink></t:actionlink>}}}
 We want to add some attribute for this component, place the curson here
+
 {{{
 <t:actionlink
 }}}
+
 Pop up content assist, it will come up with a list of component attributes that we can use here, we can select attribute names in the list.
 [http://tapestrytools.googlecode.com/files/autocomplete3.png] 
 
