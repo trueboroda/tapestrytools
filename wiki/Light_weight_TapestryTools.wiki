@@ -1,7 +1,7 @@
-#summary Light weight TapestryTools.
+#summary Lightweight TapestryTools - Eclipse & XML editor based Tapestry visual editor.
 #labels Featured
 
-= GSoC project proposal - Light weight TapestryTools =
+= GSoC project proposal - Lightweight TapestryTools =
 
 We build an Eclipse WTP based Tapestry 5 visual editor as GSoC 2011 project, called it TapestryTools (http://code.google.com/p/tapestrytools/). Now, it can works well on Eclipse Helios/Indigo. But there are still some problems:
 
@@ -11,7 +11,7 @@ We build an Eclipse WTP based Tapestry 5 visual editor as GSoC 2011 project, cal
 
 After my GSoC mentor Igor Drobiazko suggested, and discussion with Tapestry developers and users in mail list. We noticed that people need a brand new simple tool which supplies some special practical and facile Tapestry 5 features, and it can run without WTP.
 
-= Light weight TapestryTool design =
+= Lightweight TapestryTool design =
 
 The brand new lightweight TapestryTools will be just a normal Eclipse plug-in, does not need many special dependencies, more focus, easy to install, easy to use. And also, we can supply practical and welcomed features:
 
@@ -33,7 +33,7 @@ Users can use command to switch between tml file and corresponding java, It shou
 
 === 4. XML editor based .tml editor ===
 
-As our light weight TapestryTools does not need Eclipse WTP, we can not use WTP's Web Page Editor any more and have to build another editor for Tapestry's .tml file. In fact, tml file is one special format XML, and many tapestry developers are accustomed to edit .tml file by XML editor, meanwhile XML editor is included in Eclipse Java release. So, we will extend XML editor to supply a brand new TML editor for Tapestry.
+As our lightweight TapestryTools does not need Eclipse WTP, we can not use WTP's Web Page Editor any more and have to build another editor for Tapestry's .tml file. In fact, tml file is one special format XML, and many tapestry developers are accustomed to edit .tml file by XML editor, meanwhile XML editor is included in Eclipse Java release. So, we will extend XML editor to supply a brand new TML editor for Tapestry.
 [http://tapestrytools.googlecode.com/files/tmleditor.png] 
 
 === 5. Autocompletion features ===
