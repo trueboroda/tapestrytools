@@ -42,7 +42,13 @@ This light weight TapestryTools will still supply autocompletion features, inclu
 
   * Autocomplete of properties from the .java page when editing the .tml file
 
-For example, there is such a method in Test.java:
+For example, there is a parameter bound using the @Component annotation inside the class:
+{{{
+@Property
+private String name;
+}}}
+
+Or such a method in Test.java:
 {{{
 public String getName(){
  return "Gavin Lei";
