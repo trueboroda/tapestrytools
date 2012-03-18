@@ -103,6 +103,10 @@ So when we type
 }}}
 it will also come up with a list of components that we can use here, we can select goToStart component name in the list.
 
+=== 6. Custom component support in autocompletion feature ===
+
+Besides Tapestry build in component, custom components will also be in the auto-completion list. You can find the  [http://code.google.com/p/tapestrytools/wiki/Custom_Components_support_in_TapestryTools design details here].
+
 == Optional Features ==
 
 If we have enough time in GSoC period, we also plan to supply these features:
