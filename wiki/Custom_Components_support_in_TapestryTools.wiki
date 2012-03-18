@@ -23,14 +23,8 @@ After users collect the components, user can check the components in each packag
 
 [http://tapestrytools.googlecode.com/files/53.png] 
 
+== Custom components support in *.tml file's auto complete list ==
 
-== 1. Support in Web Page Editor Palette ==
-
-After all the steps before, once user open *.tml Tapestry page file by Web page editor, there will be four sections in the palette. All the custom components in this project will be listed in the "Tapestry custom components" section. 
-
-
-== 2.Custom components support in *.tml file's auto complete list ==
-
-Also, custom components in this project will be available in this project's *.tml auto complete list.
+After all the steps before, custom components in this project will be available in this project's *.tml auto complete list.
 
 [http://tapestrytools.googlecode.com/files/54.png] 
