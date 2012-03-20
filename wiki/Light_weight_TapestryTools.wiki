@@ -113,10 +113,12 @@ Besides Tapestry build in component, custom components will also be in the auto-
 
 If we have enough time in GSoC period, we also plan to supply these features:
 
-1. Import Tapestry jar of special version to project
+1. Add another Page/Component class content tab in TML editor, users can use shortcut to switch between class tab and template tab. 
 
-2. Validation function in Tapestry .tml file source view
+2. Import Tapestry jar of special version to project
+
+3. Validation function in Tapestry .tml file source view
    Supplies semantic validation of the Tapestry standard tag libraries for both EL and non-EL attribute values in .tml file
 
-3. Hyperlink function in Tapestry .tml file source view
+4. Hyperlink function in Tapestry .tml file source view
    Hyperlink to the Java editor from property and method referenced in the Expression Language(EL) of a tag-attribute, click (CTRL + property or method ), it will jump to the corresponding Java Classfile.
