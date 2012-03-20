@@ -21,6 +21,8 @@ The brand new lightweight TapestryTools will be just a normal Eclipse plug-in, d
 
 It will be very easy to install the brand new TapestryTools in different Eclipse version, supply good compatibility between different versions.
 
+We will supply Eclipse Marketplace support as well as individual update center. Eclipse with Marketplace client(Such as Eclipse IDE for Java developer) users can install this lightweight TapestryTools from menu Help -> Eclipse Marketplace very easily.
+
 === 2. Tapestry wizards ===
 
 It will still supply Tapestry 5 page and component creation wizard.
