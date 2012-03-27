@@ -3,9 +3,10 @@
 
 <wiki:toc max_depth="3" />
 
-= Introduction =
+= Abstract =
 
 [http://tapestry.apache.org/ Apache Tapestry] supplies powerful component structure, and it offered a number of other powerful features that proved to be critical in our work. It allowed a clean separation between Java and HTML, make it possible for the design work on the application to continue well after the code had been completed, and becoming more and more popular today. This project aims to build a lightweight Tapestry visual editor on Eclipse XML editor.
+= Detail Description =
 
 We build an Eclipse WTP based Tapestry 5 visual editor as GSoC 2011 project, called it TapestryTools (http://code.google.com/p/tapestrytools/). Now, it can works well on Eclipse Helios/Indigo. But there are still some problems:
 
