@@ -20,8 +20,9 @@ After my GSoC mentor Igor Drobiazko suggested, we discussed this problem with Ta
 
 Here, thanks for all the help and advises from Tapestry community, users, developers and Tapestry committers even PMCs.
 
-_Link 1:http://mail-archives.apache.org/mod_mbox/tapestry-users/201202.mbox/browser_
-_Link 2:http://mail-archives.apache.org/mod_mbox/tapestry-dev/201202.mbox/browser_
+_ Link 1:http://mail-archives.apache.org/mod_mbox/tapestry-users/201202.mbox/browser _
+
+_ Link 2:http://mail-archives.apache.org/mod_mbox/tapestry-dev/201202.mbox/browser _
 
 = New Lightweight TapestryTool Design =
 
