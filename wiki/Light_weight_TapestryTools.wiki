@@ -11,19 +11,21 @@ We build an Eclipse WTP based Tapestry 5 visual editor as GSoC 2011 project, cal
 
  * 1. It is built on Eclipse WTP, too heavyweight, hard to install, users must install all the WTP plugins to run TapestryTools. Many tapestry developers want to use TapestryTools, but failed in its install process. Or some other users just do not want to install such a heavy tool, they need a more smart, more simpler and more efficient tool.
 
- * 2. Hard to maintain and improve, once Eclipse WTP version changes, we must do some corresponding job to keep synchronous with Eclipse WTP's release version. It is repeated and boring. Even there are some users want to improve TapestryTools with me together, after they know that must start with WTP source code, they gave it up. Eclipse WTP is powerful, meanwhile, its source code is too complex to extend. 
+ * 2. Hard to maintain and improve, once Eclipse WTP version changes, we must do some corresponding job to keep synchronous with Eclipse WTP's release version. It is repeated and boring. Eclipse Juno will release soon, it will be huge project if we want to migrate it to the new version.
 
-After my GSoC mentor Igor Drobiazko suggested, and discussion with Tapestry developers and users in mail list. We noticed that people need a brand new simple tool which supplies some special practical and facile Tapestry 5 features, and it can run without WTP.
+ * 3. Hard to attract more contributors. There were some users want to improve TapestryTools with me together, but after they know that must start with WTP source code, they gave it up. Eclipse WTP is powerful, meanwhile, its source code is too complex to extend. 
+
+After my GSoC mentor Igor Drobiazko suggested, we discussed this problem with Tapestry developers and users in mail list. They indicate that they prefer a brand new simple tool which supplies some special practical and facile Tapestry 5 features, more important, can run without heavyweight complex plugins such as Eclipse WTP. This is the reason why this project proposal was born.
 
 = New Lightweight TapestryTool Design =
 
 The brand new lightweight TapestryTools will be just a normal Eclipse plug-in, does not need many special dependencies, more focus, easy to install, easy to use. And also, we can supply practical and welcomed features:
 
-== Must have features ==
+== Project Feature List ==
 
-=== 1. Easy install===
+=== 1. Easy to install and Easy to upgrade ===
 
-It will be very easy to install the brand new TapestryTools in different Eclipse version, supply good compatibility between different versions.
+It will be very easy to install the brand new TapestryTools in different Eclipse version, supply good compatibility between different versions. Tapestry developers who use Eclipse Java version can install it without any other plugins.
 
 We will supply Eclipse Marketplace support as well as individual update center. Eclipse with Marketplace client(Such as Eclipse IDE for Java developer) users can install this lightweight TapestryTools from menu Help -> Eclipse Marketplace very easily.
 
@@ -34,7 +36,7 @@ It will still supply Tapestry 5 page and component creation wizard.
 
 === 3. Convenient switch ===
 
-Users can use command to switch between tml file and corresponding java, It shoule be possible both by menu and short keys, we use "CTRL + R" in PC and "COMMAND + R" in Mac.
+Tapestry developers really like this feature. They can use command to switch between tml file and corresponding java, It shoule be possible both by menu and short keys, we use "CTRL + R" in PC and "COMMAND + R" in Mac.
 [http://tapestrytools.googlecode.com/files/42.png] 
 
 === 4. XML editor based .tml editor ===
