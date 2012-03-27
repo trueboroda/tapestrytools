@@ -1,8 +1,6 @@
 #summary Lightweight TapestryTools - Eclipse & XML editor based Tapestry visual editor.
 #labels Featured
 
-= GSoC project proposal - Lightweight TapestryTools =
-
 <wiki:toc max_depth="3" />
 
 = Introduction =
