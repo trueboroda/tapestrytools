@@ -18,6 +18,11 @@ We build an Eclipse WTP based Tapestry 5 visual editor as GSoC 2011 project, cal
 
 After my GSoC mentor Igor Drobiazko suggested, we discussed this problem with Tapestry developers and users in mail list. They indicate that they prefer a brand new simple tool which supplies some special practical and facile Tapestry 5 features, more important, can run without heavyweight complex plugins such as Eclipse WTP. This is the reason why this project proposal was born.
 
+Here, thanks for all the help and advises from Tapestry community, users, developers and Tapestry committers even PMCs.
+
+_Link 1:http://mail-archives.apache.org/mod_mbox/tapestry-users/201202.mbox/browser_
+_Link 2:http://mail-archives.apache.org/mod_mbox/tapestry-dev/201202.mbox/browser_
+
 = New Lightweight TapestryTool Design =
 
 The brand new lightweight TapestryTools will be just a normal Eclipse plug-in, does not need many special dependencies, more focus, easy to install, easy to use. And also, we can supply practical and welcomed features:
