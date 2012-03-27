@@ -3,6 +3,10 @@
 
 = GSoC project proposal - Lightweight TapestryTools =
 
+= Introduction =
+
+Apache Tapestry supplies powerful component structure, and it offered a number of other powerful features that proved to be critical in our work. It allowed a clean separation between Java and HTML, make it possible for the design work on the application to continue well after the code had been completed, and becoming more and more popular today. This project aims to build a lightweight Tapestry visual editor on Eclipse XML editor.
+
 We build an Eclipse WTP based Tapestry 5 visual editor as GSoC 2011 project, called it TapestryTools (http://code.google.com/p/tapestrytools/). Now, it can works well on Eclipse Helios/Indigo. But there are still some problems:
 
  * 1. It is built on Eclipse WTP, too heavyweight, hard to install, users must install all the WTP plugins to run TapestryTools. Many tapestry developers want to use TapestryTools, but failed in its install process. Or some other users just do not want to install such a heavy tool, they need a more smart, more simpler and more efficient tool.
