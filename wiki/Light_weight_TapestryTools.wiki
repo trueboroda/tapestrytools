@@ -139,16 +139,13 @@ If you are interested, you can check out the source code, and have a trial of it
 ==Time Schedule==
  * Before March 26: Discuss and gather demand, features in Tapestry Dev & User mail list. Read XML editor's source code and start survey and some basic coding job to confirm which features we can reach in the coming 3-4 three months.
  * March 26 - April 6: Submitting the project proposal
- * April 24 - May 22:Community Bonding Period (April 26 - May 24): Get to know mentors, read documentation, and prepare development environment.
- * May 23 - May 31: Finish Tapertry libraries import wizard function
- * Jun 1 - Jun 8: Finish Tapestry page/component creation wizard function
- * Jun 9 - Jun 24: Finish Add Tapestry component support for WTP web editor palette function
- * Jun 25 - Jul 2: Finish change-over function between Tapestry page's .tml file and .java file
- * Jul 3 - Jul 12: Add Tapestry built in and custom components autocomplete function for WTP Web Page Editor's source view
- * Jul 13 - Jul 20: Finish Tapestry component's parameters property view
- * Jul 21 - Aug 6: Finish Autocomplete of properties from the .java page when editing the .tml file function
- * Aug 7 - Aug 14: Finish Tapestry's built in Live Class Reloading support functions
- * Aug 15 - Aug 25: Develop time for both Optional features 8 and 9 (Validation function in Tapestry .tml file source view & Hyperlink function in Tapestry .tml file source view). Scrub code, write tests, improve documentation and submit all my work
+ * April 24 - May 22:Community Bonding Period (April 26 - May 22): Get to know mentors, read documentation, and prepare development environment.
+ * May 23 - Jun 8: Finish Tapestry page/component creation wizard function
+ * Jun 9 - Jun 16: Finish change-over function between Tapestry page's .tml file and .java file
+ * Jun 17 - Jul 2: Finish basic extend job for XML editor based TML editor 
+ * Jul 3 - Jul 31: Finish all the autocompletion features in TML editor
+ * Aug 1 - Aug 14: Finish custom component support in autocompletion feature
+ * Aug 15 - Aug 25: Develop time for optional features. Scrub code, write tests, improve documentation and submit all my work
 
 ==Something about me ==
 
