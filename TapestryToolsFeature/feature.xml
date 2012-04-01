@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="TapestryToolsFeature"
+      label="TapestryToolsFeature"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      [Tapestry 5 visual editor trial version]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Apache Licence 2.0]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <url>
+      <discovery label="TapestryTools web site" url="http://code.google.com/p/tapestrytools/"/>
+   </url>
+
+   <plugin
+         id="org.apache.tapestrytools.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.tapestrytools.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
