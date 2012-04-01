@@ -138,10 +138,14 @@ If we have enough time in GSoC period, we also plan to supply these features:
 
 = Project Current Status =
 
+== Development progress and source code ==
 We have started development job already, and finished basic auto-complete feature for TML editor(see Must Have feature 5 above) such as Tapestry built in components, component attrubites and host code in [http://code.google.com/p/tapestrytools/ Google code http://code.google.com/p/tapestrytools/]
 If you are interested, you can check out the source code, and have a trial of it.
 
  * Development Environment: Eclipse Indigo for Java developer(without any other plugins)
+
+== Install trial version ==
+I have finished some basic features and create Eclipse update site for this lightweight TapestryTools, you can install it to have a trial following [http://code.google.com/p/tapestrytools/wiki/Install_Guide_Lightweight_TapestryTools install guide here].
 
 = Additional Info =
 
