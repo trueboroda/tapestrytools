@@ -2,7 +2,9 @@
 
 = Install =
 
-Open your Eclipse(recommender eclipse-java version or eclipse-jee version), click:
+NOTE: Support Eclipse Indigo only, not Helios yet :-)
+
+Open your Eclipse *Indigo* (recommend *eclipse-java* version or *eclipse-jee* version), click:
 
 Help -> Install new software, then input lightweight TapestryTools update site url:
 
