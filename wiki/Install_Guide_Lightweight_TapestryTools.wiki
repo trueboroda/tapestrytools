@@ -30,3 +30,7 @@ Check TapestryToolsFeature, click next to start instal process.
 == 3. Tapestry 5 component attributes content assist ==
 
 [http://tapestrytools.googlecode.com/files/gsoc_2012_3.png]
+
+== 4. Tapestry Template/Java file switch feature (CTRL + R command) ==
+
+[http://tapestrytools.googlecode.com/files/CTRLR.png]
