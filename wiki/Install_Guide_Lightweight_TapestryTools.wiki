@@ -35,6 +35,6 @@ Check TapestryToolsFeature, click next to start instal process.
 
 [http://tapestrytools.googlecode.com/files/CTRLR.png]
 
-== 5. Tapestry class attributes/methods support in content assist of TML page file ==
+== 5. Tapestry class attributes/methods support in content assist of TML editor ==
 
 [http://tapestrytools.googlecode.com/files/tapestryentities.png]
