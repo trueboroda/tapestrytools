@@ -38,3 +38,9 @@ Check TapestryToolsFeature, click next to start instal process.
 == 5. Tapestry class attributes/methods support in content assist of TML editor ==
 
 [http://tapestrytools.googlecode.com/files/tapestryentities.png]
+
+== 6. Message support in TML's content assist ==
+
+When type ${message: and then cmd + space, all the available messages for the page will be suggested in the content assist list.
+
+[http://tapestrytools.googlecode.com/files/message_contentassist.png]
