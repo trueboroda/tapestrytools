@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/TapestryToolsFeature_1.0.0.201207172033.jar" id="TapestryToolsFeature" version="1.0.0.201207172033">
+   <feature url="features/TapestryToolsFeature_1.0.0.201207232147.jar" id="TapestryToolsFeature" version="1.0.0.201207232147">
       <category name="TapestryTools"/>
    </feature>
    <category-def name="TapestryTools" label="TapestryTools"/>
