@@ -62,4 +62,8 @@ In this mapping, a library prefix is mapped to a component package. So, every co
 
 === 7.1 Add custom components support for Tapestry application ===
 
+[http://tapestrytools.googlecode.com/files/customsupport_1.png]
+
 === 7.2 Edit custom components libraries mapping ===
+
+[http://tapestrytools.googlecode.com/files/customsupport_2.png]
