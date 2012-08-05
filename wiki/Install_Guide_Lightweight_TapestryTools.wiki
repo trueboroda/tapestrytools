@@ -44,3 +44,26 @@ Check TapestryToolsFeature, click next to start instal process.
 When type ${message: and then cmd + space, all the available messages for the page will be suggested in the content assist list.
 
 [http://tapestrytools.googlecode.com/files/message_contentassist.png]
+
+== 7. Custom components support ==
+
+In TapestryTools' components auto-complete feature, by default only components defined in these two packages are in the list:
+
+- org.apache.tapestry5.corelib.components (Tapestry 5's build-in components)
+- app-package.components, whereby app-package is the applications root package defined in the web.xml (Tapestry web application's root components)
+
+Besides these components, TapestryTools support also custom components with different prefix with "t:".
+
+It allow you to provide autocompletion for custom components from different libraries, and we have a nice editor in which a developer enters a mapping:
+
+x: org.example.components
+y: org.acme.lib.components
+
+In this mapping, a library prefix is mapped to a component package. So, every component from org.example.components package would have x prefix. For example:
+
+<span t:type="x/MyComponent"></span>
+<span t:type="y/Foo"></span>
+
+=== 7.1 Add custom components support for Tapestry application ===
+
+=== 7.2 Edit custom components libraries mapping ===
