@@ -1,4 +1,4 @@
-#summary GSoC 2012 project Lightweight TapestryTools install guide.
+#summary Lightweight TapestryTools install guide.
 
 = Install =
 
