@@ -4,6 +4,14 @@
 
 NOTE: Support Eclipse *Indigo* and *Juno (4.2)* only, not Helios yet :-)
 
+== Solution 1 ==
+
+Help -> Eclipse Marketplace..., input "tapestrytools", search, then you can find tapestrytools and install it. So easy, isn't it :-)
+
+[http://tapestrytools.googlecode.com/files/marketplace.png]
+
+== Solution 2 ==
+
 Open your Eclipse *Indigo/Juno* (recommend *eclipse-java* version or *eclipse-jee* version), click:
 
 Help -> Install new software, then input lightweight TapestryTools update site url:
