@@ -1,7 +1,5 @@
 #summary Eclipse WTP based TapestryTools.
 
-Google Summer of Code 2011 project, i will create an Eclipse WTP based visual Tapestry editor tools for usl.
-
 = Support Eclipse Version =
 
  == Helios ==
@@ -106,4 +104,3 @@ Beyond the basic JSP validation already provided with the JSP editor, this edito
  * 10. Hyperlink function in Tapestry .tml file source view
 
 Hyperlink to the Java editor from  property and  method referenced in the Expression Language(EL) of a tag-attribute, click (CTRL + property or method ), it will jump to the corresponding Java Class file.
-
