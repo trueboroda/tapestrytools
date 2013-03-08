@@ -17,18 +17,7 @@
 
 You can find the video guide about how to use TapestryTools [http://tapestrytools.googlecode.com/files/tapestrytools.mov here]
 
- = Introduction = 
-Apache Tapestry supplies powerful component structure, and it offered a number of other powerful features that proved to be critical in our work.
-
-The Eclipse Web Tools Platform (WTP) project extends the Eclipse platform with tools for developing Web and Java EE applications. It includes source and graphical editors for a variety of languages, wizards and built-in applications to simplify development, and tools and APIs to support deploying, running, and testing apps.WTP supplies Web Page Editor for us to edit HTML page, JSP page and JSF-JSP web page.
-
-Tapestry was used widely nowadays, it allowed a clean separation between Java and HTML, and made it possible for the design work on the application to continue well after the code had been completed, It is becoming more and more popular today. But we can not find a proper Tapestry visual editor, Eclipse WTP is popular in Web application development, but it is a shame that Eclipse WTP does not support Tapestry, so i think it is a good idea to build a Tapestry visual editor on Eclipse WTP.
-
-This editor should have following mainly functions:
-
- * Note GSoC supplies us only 3 months to finish our project, so this project will focus on Tapestry 5, after that, if we have enough time, will supply other Tapestry version support
-
- = Must have functions =
+ = Features =
  * 1. Tapertry application creation wizard
 
 in this wizard, it will ask the user to provide the root package for the application when he clicks "finish", you create an empty application with specified root package + subpackages pages, components, services and also it will generate AppModule and web.xml. We can select add necessary Tapestry 5 relative jars into our project or not in this wizard.
