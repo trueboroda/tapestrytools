@@ -2,76 +2,77 @@
 
 = Install =
 
-NOTE: Support Eclipse *Indigo* and *Juno (4.2)* only, not Helios yet :-)
+NOTE: This plugin currently supports only Eclipse *Indigo* (3.7) and *Juno (4.2)*, not Helios (3.6).
 
-== Solution 1 ==
+== Option 1: Using Eclipse Marketplace ==
 
-Help -> Eclipse Marketplace..., input "tapestrytools", search, then you can find tapestrytools and install it. So easy, isn't it :-)
+Click `Help -> Eclipse Marketplace...`, enter `tapestrytools`, then search, and you'll see "TapestryTools". Click `Install`.
 
 [http://tapestrytools.googlecode.com/files/marketplace.png]
 
-== Solution 2 ==
+== Option 2: Using Update Site URL ==
 
-Open your Eclipse *Indigo/Juno* (recommend *eclipse-java* version or *eclipse-jee* version), click:
+Within Eclipse *Indigo/Juno* (the *Eclipse-java* or *eclipse-jee* version is recommended), click `Help -> Install` new software, then enter the following update site URL:
 
-Help -> Install new software, then input lightweight TapestryTools update site url:
+{{{http://tapestrytools.googlecode.com/svn/TapestryTools/}}}
 
-http://tapestrytools.googlecode.com/svn/TapestryTools/
-
-Check TapestryToolsFeature, click next to start instal process.
+Check `TapestryToolsFeature`, then click `Next` to start the installation.
 
 [http://tapestrytools.googlecode.com/files/gsoc_2012_install.png]
 
- * NOTE: If you are using Eclipse-sdk version which has no XML editor installed, please confirm check "Contact all update sites during install to find required software".
+ * NOTE: If you're using the Eclipse-sdk version, which has no XML editor installed, be sure to check "Contact all update sites during install to find required software".
 
-
-= Finished features by now=
+= Features Available Now =
 
 == 1. TML editor ==
 
 [http://tapestrytools.googlecode.com/files/gsoc_2012_1.png]
 
-== 2. Tapestry 5 components content assist ==
+== 2. Content assist for Tapestry 5 components ==
 
 [http://tapestrytools.googlecode.com/files/gsoc_2012_2.png]
 
-== 3. Tapestry 5 component attributes content assist ==
+== 3. Content assist for Tapestry 5 component attributes ==
 
 [http://tapestrytools.googlecode.com/files/gsoc_2012_3.png]
 
-== 4. Tapestry Template/Java file switch feature (CTRL + R command) ==
+== 4. Tapestry Template/Java file switching (CTRL + R command) ==
 
 [http://tapestrytools.googlecode.com/files/CTRLR.png]
 
-== 5. Tapestry class attributes/methods support in content assist of TML editor ==
+== 5. Content assist for Tapestry class attributes/methods within TML editor ==
 
 [http://tapestrytools.googlecode.com/files/tapestryentities.png]
 
-== 6. Message support in TML's content assist ==
+== 6. Content assist for Message support within TML editor ==
 
-When type ${message: and then cmd + space, all the available messages for the page will be suggested in the content assist list.
+When typing `${message:` and then Cmd+space (Mac) or Ctrl+space (Windows), all the available messages for the page will be suggested in the content assist list.
 
 [http://tapestrytools.googlecode.com/files/message_contentassist.png]
 
 == 7. Custom components support ==
 
-In TapestryTools' components auto-complete feature, by default only components defined in these two packages are in the list:
- * org.apache.tapestry5.corelib.components (Tapestry 5's build-in components)
- * app-package.components, whereby app-package is the applications root package defined in the web.xml (Tapestry web application's root components)
+With content assist for components, by default only components defined in the following two packages are in the list:
 
-Besides these components, TapestryTools support also custom components with different prefix with "t:". It allow you to provide autocompletion for custom components from different libraries, and we have a nice editor in which a developer enters a mapping:
+ * org.apache.tapestry5.corelib.components (Tapestry 5's built-in components)
+ * `app-package`.components, where `app-package` is the application's root package as defined in the web.xml (Tapestry web application's root components)
+
+In addition, TapestryTools supports custom components with prefixes other than the usual "t:", allowing you to provide auto-completion for custom components from different libraries. A nice editor is included for entering the mapping. For example:
+
  * x: org.example.components
  * y: org.acme.lib.components
-In this mapping, a library prefix is mapped to a component package. So, every component from org.example.components package would have x prefix. For example:
 
-{{{<span t:type="x/MyComponent"></span>}}}
+With the above, each prefix is mapped to a component package. Every component from org.example.components package would have x prefix. For example:
 
-{{{<span t:type="y/Foo"></span>}}}
+<code language="xml">
+<span t:type="x/MyComponent"></span>
+<span t:type="y/Foo"></span>
+</code>
 
-=== 7.1 Add custom components support for Tapestry application ===
+=== 7.1 Adding custom components support ===
 
 [http://tapestrytools.googlecode.com/files/customsupport_1.png]
 
-=== 7.2 Edit custom components libraries mapping ===
+=== 7.2 Editing the custom component library mapping ===
 
 [http://tapestrytools.googlecode.com/files/customsupport_2.png]
